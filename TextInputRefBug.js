@@ -1,0 +1,1 @@
+This error occurs when using the `useRef` hook in React Native to manage a TextInput component and attempting to access its value directly using `ref.current.value`. This approach won't work reliably because the value might not be immediately available or updated.  The `value` prop isn't directly manipulated by `useRef`. 
